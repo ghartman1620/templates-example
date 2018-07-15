@@ -72,6 +72,14 @@ int main() {
   stuff.append(10);
   stuff.append(20);
   stuff.append(30);
+
+  // 3. Finally, now that you've completed the container and iterator classes, rewrite this loop in a few ways:
+  // - Do not use the : for loop style. Instead, write the entire loop explicitly, calling all methods this loop calls.
+  //   Add print statements to each of the methods in container and iterator, and ensure that they are all called.
+  // - Print the contents of container in reverse. You will need to add a new set of methods to container, and some
+  //   mechanism to iterator for the operator++ to move the pointer backwards for a reverse iterator. You might choose to use
+  //   another iterator class.
+
   for(const auto& thing: stuff) {
     std::cout << thing << std::endl;
   }
