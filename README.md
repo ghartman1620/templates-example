@@ -4,6 +4,8 @@ To students: DO NOT copy paste this code in any assignment you submit. I do enco
 All of your code that you submit in any CMPS assignment is run against a plaigarism checker that, among other sources, checks that your code is not copy-pasted from a public github (like this one).
 
 Use:
+
 git clone https://github.com/ghartman1620/templates-example
+
 to get a copy of this code locally to be edited, and make to build it. Note the code, as provided, does not compile.
 
